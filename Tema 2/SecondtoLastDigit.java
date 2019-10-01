@@ -3,7 +3,8 @@ public class SecondtoLastDigit {
         int n = Integer.parseInt(args[0]);
 	int m =((n % 100)/10);
 	System.out.println(m);
+	//n = n/10;
+	//System.out.println(n % 10);
     }
 }
-
 
