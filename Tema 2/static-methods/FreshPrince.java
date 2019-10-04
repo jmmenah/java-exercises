@@ -1,7 +1,3 @@
-// Building Java Programs: A Back to Basics Approach, 4th edition 
-// by Stuart Reges and Marty Stepp
-// http://www.buildingjavaprograms.com/
-
 public class FreshPrince {
 	public static void main(String[] args) {
 		rap(); // Calling (running) the rap method
