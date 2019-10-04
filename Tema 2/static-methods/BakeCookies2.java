@@ -1,7 +1,3 @@
-// Building Java Programs: A Back to Basics Approach, 4th edition 
-// by Stuart Reges and Marty Stepp
-// http://www.buildingjavaprograms.com/
-
 // This program displays a delicious recipe for baking cookies.
 public class BakeCookies2 {
     public static void main(String[] args) {
