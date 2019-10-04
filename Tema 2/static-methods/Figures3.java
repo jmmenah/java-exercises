@@ -1,8 +1,3 @@
-// Building Java Programs: A Back to Basics Approach, 4th edition 
-// by Stuart Reges and Marty Stepp
-// http://www.buildingjavaprograms.com/
-
-// Suzy Student, CSE 138, Spring 2094
 // Prints several figures, with methods for structure and redundancy.
 public class Figures3 {
     public static void main(String[] args) {
