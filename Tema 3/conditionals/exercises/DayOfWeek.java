@@ -9,16 +9,19 @@ public class DayOfWeek {
 	int d0 = (d + x + (31*m0)/12) % 7;
 	boolean isLeapYear = ( (y % 4 == 0) && ((y % 100 != 0) || (y % 400 == 0)) );
 	if (y < 0) {
-		System.out.println("Invalid year");
+		System.out.println("Invalid year"); // When year is negative
 	}
 	else if (m < 0 || m > 12){
-		System.out.println("Invalid month");
+		System.out.println("Invalid month"); // When month is negative or more than 12
 	}
-	else if ( d <=0 || d > 31 || ((m == 4 || m == 6 || m == 9 || m == 11 ) && d > 30)) {
-		System.out.println("Invalid day");
+	else if ((m == 4 || m == 6 ||m == 9 ||m == 11) && d > 30) {
+		System.out.println("Invalid day"); // For months with 30 days
 	}
-	else if ( (m == 2) && ( ) {
-		System.out.println("Invalid day");
+	else if ( m == 2 && isLeapYear == true && d > 29) {
+		System.out.println("Invalid day"); // When February is in a Leap Year
+	}
+	else if ( m == 2 && isLeapYear == false && d > 28) {
+		System.out.println("Invalid day"); // When February is not in a Leap Year
 	}
 	else {
 		switch (d0) {
