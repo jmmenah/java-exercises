@@ -5,7 +5,7 @@ public class TenHellosPair {
         System.out.println("2nd Hello");
 
         // count from i = 4 to 10
-/*        int i = 4;
+/*        int i = 4; // For odd i = 1
         while (i <= 10) {
             System.out.println(i + "th Hello");
             i = i + 2;
