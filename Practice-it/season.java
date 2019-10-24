@@ -1,3 +1,4 @@
+//Method that shows you the season introducing month and day
 public String season(int m, int d) {
     if(m < 3 || (m == 3 && d <= 15) || (m == 12 && d >= 16)) {
         return "Winter";
