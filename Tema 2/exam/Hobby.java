@@ -1,3 +1,36 @@
+/*
+*1.- Write a program Hobby.java that prompts the user for his name and his favorite hobby. Then prints the output identical as shown below. (6 points)
+*
+*Here is an example dialogue with the user:
+*
+*/*/*/*/*/*/*/*/*/
+*|| Your Hobby! ||
+*\*\*\*\*\*\*\*\*\
+*
+*Please type your name: Fulanito de Tal
+*Please type your Hobby: Pop music
+*
+*    Hello Fulanito de Tal!
+*    Your Hobby is "Pop music"
+*
+*Here is another example dialogue with the user:
+*
+*/*/*/*/*/*/*/*/*/
+*|| Your Hobby! ||
+*\*\*\*\*\*\*\*\*\
+*
+*Please type your name: John Doe        
+*Please type your Hobby: Dancing Samba
+*
+*    Hello John Doe!
+*    Your Hobby is "Dancing Samba"
+*
+*Please type your name: John Doe        
+*Please type your Hobby: Dancing Samba
+*
+*    Hello John Doe!
+*    Your Hobby is "Dancing Samba"
+**/
 import java.util.Scanner;
 public class Hobby {
 	public static void main (String[]args) {
