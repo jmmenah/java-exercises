@@ -49,4 +49,7 @@ public class TV {
   public int getVolumeLevel(){
   	return volumeLevel;
   }
+  public boolean isOn(){
+	return on;
+  }
 }
