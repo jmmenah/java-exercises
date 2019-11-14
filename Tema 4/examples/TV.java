@@ -1,9 +1,13 @@
 public class TV {
+  private int id;
+  private String owner;
   private int channel = 1; // Default channel is 1
   private int volumeLevel = 1; // Default volume level is 1
   private boolean on = false; // By default TV is off
   
-  public TV() {
+  public TV(int id, String owner) {
+	this.id = id;
+	this.owner = owner;
   }
   
   public void turnOn() {
@@ -23,7 +27,19 @@ public class TV {
     if (on && newVolumeLevel >= 1 && newVolumeLevel <= 7)
       volumeLevel = newVolumeLevel;
   }
-  
+
+  public int getChannel(){
+	return channel;
+  }
+
+  public int getVolumeLevel(){
+  	return volumeLevel;
+  }
+
+  public boolean isOn(){
+	return on;
+  }
+
   public void channelUp() {
     if (on && channel < 120)
       channel++;
@@ -43,13 +59,8 @@ public class TV {
     if (on && volumeLevel > 1)
       volumeLevel--;
   }
-  public int getChannel(){
-	return channel;
-  }
-  public int getVolumeLevel(){
-  	return volumeLevel;
-  }
-  public boolean isOn(){
-	return on;
+
+  public String toString() {
+   return"tv" + id + "'s porperty of "+ owner + " channel is " + channel + " and volume level is " + volumeLevel;
   }
 }
