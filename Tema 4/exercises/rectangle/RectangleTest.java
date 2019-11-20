@@ -45,3 +45,7 @@ public class RectangleTest {
 	// Static method belongs to RectangleTest class
 	public static void showRectangle(Rectangle r) {
 		System.out.println("Area: " + r.area());
+		System.out.println("Perimeter: " + r.perimeter());
+	} // end showRectangle
+
+} // end RectangleTest
