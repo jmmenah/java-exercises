@@ -1,6 +1,10 @@
 /*
-Write a method called average that takes two integers as parameters and returns the average of the two integers.
+Write a method called average that computes the average (arithmetic mean) of all elements in an array of integers and returns the answer as a double. For example, if the array passed contains the values [1, -2, 4, -4, 9, -6, 16, -8, 25, -10], the calculated average should be 2.5. Your method accepts an array of integers as its parameter and returns the average. You may assume that the array contains at least one element. Your method should not modify the elements of the array.
 */
-public static double average(int num1, int num2){
-    return (double) (num1+num2)/2;
+public double average(int [] numbers){
+    int sum=0;
+    for(int i=0;i<numbers.length;i++){
+        sum+=numbers[i];
+    }
+    return (double) sum/numbers.length;
 }
