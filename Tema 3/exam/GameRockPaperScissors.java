@@ -1,4 +1,94 @@
 /*
+1.- Modify the program GameRockPaperScissors.java so that three rounds are played. (6,5 points)
+
+    The program must be play 3 rounds showing a numbered message for each one (1,5 points)
+    The program will accept only three valid options: rock, paper or scissors (case insensitive) (3,5 points)
+    At the end of the three rounds the program will show the final result of the three rounds (See examples below) (1,5 points)
+
+See the following examples of program output:
+
+$ java GameRockPaperScissors 
+Round #1
+========
+Please, choose (rock, paper or scissors): ROCK
+The computer choose: scissors
+rock destroys scissors: Player wins!
+
+Round #2
+========
+Please, choose (rock, paper or scissors): lizard
+Not valid option!
+
+Please, choose (rock, paper or scissors): Spock
+Not valid option!
+
+Please, choose (rock, paper or scissors): Paper
+The computer choose: scissors
+scissors cut paper: Computer wins!
+
+Round #3
+========
+Please, choose (rock, paper or scissors): pape
+Not valid option!
+
+Please, choose (rock, paper or scissors): scissORS
+The computer choose: scissors
+It's a tie!
+
+### Game Finished ###
+Player = 1
+Computer = 1
+Tied Game!
+
+$ java GameRockPaperScissors 
+Round #1
+========
+Please, choose (rock, paper or scissors): rock
+The computer choose: paper
+paper covers rock: Computer wins!
+
+Round #2
+========
+Please, choose (rock, paper or scissors): paper
+The computer choose: paper
+It's a tie!
+
+Round #3
+========
+Please, choose (rock, paper or scissors): scissors
+The computer choose: scissors
+It's a tie!
+
+### Game Finished ###
+Player = 0
+Computer = 1
+I'm sorry you lost the game
+
+$ java GameRockPaperScissors 
+Round #1
+========
+Please, choose (rock, paper or scissors): rock
+The computer choose: scissors
+rock destroys scissors: Player wins!
+
+Round #2
+========
+Please, choose (rock, paper or scissors): rock
+The computer choose: scissors
+rock destroys scissors: Player wins!
+
+Round #3
+========
+Please, choose (rock, paper or scissors): rock
+The computer choose: rock
+It's a tie!
+
+### Game Finished ###
+Player = 2
+Computer = 0
+Congratulations!, Player is the winner
+
+
 Rock, Paper, or Scissors
 
 Rock paper scissors is a classic two player game. Each player chooses either rock, paper, or scissors. 
