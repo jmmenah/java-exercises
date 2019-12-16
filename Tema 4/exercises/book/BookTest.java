@@ -38,7 +38,7 @@ public class BookTest{
 	}
 
 	public static void showDuplicates(Book[] books){
-		for(int i=0;i<books.length;i++){
+		for(int i=0;i<books.length-1;i++){
 			for(int j=i+1;j<books.length;j++){
 				if(books[i].equals(books[j])){
 					System.out.println("Book #"+(i+1)+" equals to Book #"+(j+1));
