@@ -1,56 +1,34 @@
 /*
- Write a static method called quadrant that takes as parameters a pair of real numbers representing an (x, y) point and that returns the quadrant number for that point. Recall that quadrants are numbered as integers from 1 to 4 with the upper-right quadrant numbered 1 and the subsequent quadrants numbered in a counter-clockwise fashion:
+ Add the following method to the Point class:
 
-                     ^ y-axis
+public int quadrant()
 
-                     |
+Returns which quadrant of the x/y plane this Point object falls in. Quadrant 1 contains all points whose x and y values are both positive. Quadrant 2 contains all points with negative x but positive y. Quadrant 3 contains all points with negative x and y values. Quadrant 4 contains all points with positive x but negative y. If the point lies directly on the x and/or y axis, return 0.
 
-                     |
+public class Point {
 
-                     |
+    private int x;
 
-         Quadrant 2  |  Quadrant 1
+    private int y;
 
-                     |
+    
 
-<--------------------+--------------------> x-axis
+    // // your code goes here
 
-                     |
+    
 
-         Quadrant 3  |  Quadrant 4
-
-                     |
-
-                     |
-
-                     |
-
-                     V
-
-Notice that the quadrant is determined by whether the x and y coordinates are positive or negative numbers. If a point falls on the x-axis or the y-axis, then the method should return 0. Below are sample calls on the method.
-Call 	Value Returned
-quadrant(12.4, 17.8) 	1
-quadrant(-2.3, 3.5) 	2
-quadrant(-15.2, -3.1) 	3
-quadrant(4.5, -42.0) 	4
-quadrant(0.0, 3.14) 	0
+}
 */
-public static int quadrant(double x, double y){
-    int q;
-    if ( x > 0 && y > 0) {
-        q=1;
+public int quadrant() {
+    if(this.y > 0 && this.x > 0) {
+        return 1;
+    } else if(this.x < 0 && this.y > 0) {
+        return 2;
+    } else if(this.x < 0 && this.y < 0) {
+        return 3;
+    } else if(this.x > 0 && this.y < 0) {
+        return 4;
+    } else {
+        return 0;
     }
-    else if ( x < 0 && y > 0) {
-        q=2;
-    }
-    else if ( x < 0 && y < 0) {
-        q=3;
-    }
-    else if ( x > 0 && y < 0) {
-        q=4;
-    }
-    else {
-        q=0;
-    }
-    return q;
 }
