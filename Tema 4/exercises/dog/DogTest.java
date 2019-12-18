@@ -25,7 +25,7 @@ public class DogTest{
 
 	public static void showDogPersonYears(Dog[] dogs){
 		for(Dog dog : dogs){
-			System.out.println(dog.getName()+": "+dog.dogPersonYears()+" person years");
+			System.out.println(dog.getName()+": "+dog.personYears()+" person years");
 		}
 	}
 }
