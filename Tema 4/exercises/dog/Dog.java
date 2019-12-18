@@ -27,7 +27,7 @@ public class Dog{
 	}
 
 
-	public int dogPersonYears(){
+	public int personYears(){
 		return age*7;
 	}
 
