@@ -22,9 +22,12 @@ public class Mystery {
 	for(int i=1;i<n.length;i++){
 		arrayaux[i]=n[i-1];
 	}
+	array1=arrayaux;
+	/*
 	for(int i=0;i<n.length;i++){
 		n[i]=arrayaux[i];
 	}
+	*/
 
     }
 
