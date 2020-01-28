@@ -116,14 +116,14 @@ public class SongsList {
 			System.out.printf("Error: %d is not a valid song number%n", n);
 		} else {
 			n--; // fixing number, list starts with 0  
-			String song = songsList.get(n).getSongTitle() + " " + songsList.get(n).getArtist();
+			String song = songsList.get(n).getSongTitle() + " - " + songsList.get(n).getArtist();
 			System.out.printf("Removing %s.%nAre you sure? (y/n): ", song);
 			String sure = console.nextLine();
 			if (sure.equalsIgnoreCase("y")) {
 				songsList.remove(n);
 				System.out.printf("%s removed :-(%n", song);
 			} else {
-				System.out.println("Giving her/him another chance :-)");
+				System.out.println("Giving song another chance :-)");
 			}
 		}
 	}
@@ -136,7 +136,7 @@ public class SongsList {
 			songsList.clear();
 			System.out.println("All songs removed :-(");
 		} else {
-			System.out.println("Close songs are truly life's treasures");
+			System.out.println("Good songs are truly life's treasures");
 		}
 	}
 
