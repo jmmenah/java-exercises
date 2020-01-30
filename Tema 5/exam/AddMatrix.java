@@ -1,3 +1,6 @@
+/*
+2.- Complete the static methods addTotal and addColumn in the program AddMatrix.java.  (3 points)
+*/
 public class AddMatrix {
 
     public static void main(String[] args){
