@@ -1,3 +1,32 @@
+/*
+1.- Complete the program CatTest.java  that uses Cat class Cat.java. (6,5 points)
+
+    Follow the instructions shown in the comments. 
+    You are NOT allowed to modify the Cat class except for:
+        adding a toString method and
+        adding an accessor and mutator for Cat desire
+
+The output of the program must be identical to the one shown:
+
+$ java CatTest
+ 
+Show Array of cats:
+Cat #1: Azrael is a Brown cat owned by Gargamel
+Cat #2: Garfield is a Orange cat owned by Jon Arbuckle
+Cat #3: Tom is a Grey and white cat owned by Unknown
+Cat #4: Puss in Boots is a Golden tabby cat owned by Marquis of Carabas
+Cat #5: Doraemon is a Blue cat owned by Nobita Nobi
+Cat #6: Sylvester is a Black and white cat owned by Granny
+
+List of Desires:
+Azrael likes "Capture smurfs"
+Garfield likes "Eat lasagna"
+Tom likes "Capture Jerry"
+Puss in Boots likes "Live adventures"
+Doraemon likes "Eat dorayakis"
+Sylvester likes "Eat Tweety"
+*/
+
 /**
  * Complete the code
  * 
