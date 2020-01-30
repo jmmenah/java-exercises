@@ -1,3 +1,9 @@
+/*
+2.- Modify the program Mystery.java so that it uses loops instead of the arraycopy method. Your solution should work in the same way as the one provided. (3,5 points)
+
+Remember: you can't use the arraycopy method nor Arrays.copyOf and you must use loops.
+*/
+
 import java.util.Arrays;
 
 public class Mystery {
