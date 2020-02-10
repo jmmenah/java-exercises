@@ -1,0 +1,5 @@
+Class-Path: .
+Main-Class: com.javaproblems.inheritance.CarTrainTest
+
+
+
