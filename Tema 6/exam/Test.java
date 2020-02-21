@@ -28,11 +28,11 @@ public class Test {
 		for(Employee e : employees){
         	if(e instanceof Programmer){
         		Programmer pro = (Programmer) e;
-        		System.out.println(e.getLastName().toUpperCase()+", "+e.getFirstName()+" => Programming language = "+ pro.getLanguage());
+        		System.out.println(e.getLastName().toUpperCase()+", "+e.getFirstName()+" =>\tProgramming language = "+ pro.getLanguage());
         	}
         	if(e instanceof DatabasePro){
         		DatabasePro data = (DatabasePro) e;
-        		System.out.println(e.getLastName().toUpperCase()+", "+e.getFirstName()+" => Database = "+ data.getDatabase());
+        		System.out.println(e.getLastName().toUpperCase()+", "+e.getFirstName()+" =>\tDatabase = "+ data.getDatabase());
         	}
         }
 	}
