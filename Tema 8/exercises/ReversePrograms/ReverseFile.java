@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
+
+@SuppressWarnings("unchecked")
 public class ReverseFile {
 
   public static void main(String[] args) {
