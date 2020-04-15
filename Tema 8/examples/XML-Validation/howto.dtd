@@ -1,0 +1,4 @@
+<!ELEMENT howto (topic*)>
+<!ELEMENT topic (title,url)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
