@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7b6e9ec-a472-4992-a0e5-9b22ce4cfa84" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c8aUnCX7ZGu8ZvO5Uz2COwuhGM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zetcode.e08" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GsonReadWebPage">
+    <configuration name="GsonFromJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zetcode.e02.GsonFromJson" />
+      <module name="Gson-zetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zetcode.e02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonReadList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zetcode.e06.GsonReadList" />
+      <module name="Gson-zetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zetcode.e06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonReadWebPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zetcode.e08.GsonReadWebPage" />
+      <module name="Gson-zetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zetcode.e08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonToJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zetcode.e01.GsonToJson" />
+      <module name="Gson-zetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zetcode.e01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GsonWriteList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zetcode.e06.GsonWriteList" />
+      <module name="Gson-zetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zetcode.e06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GsonReadWebPage" />
+        <item itemvalue="Application.GsonFromJson" />
+        <item itemvalue="Application.GsonToJson" />
+        <item itemvalue="Application.GsonReadList" />
+        <item itemvalue="Application.GsonWriteList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7b6e9ec-a472-4992-a0e5-9b22ce4cfa84" name="Default Changelist" comment="" />
+      <created>1589912692143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589912692143</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="206" width="677" height="693" key="#com.intellij.ide.util.MemberChooser" timestamp="1589930406895">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="757" y="206" width="677" height="693" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1589930406895" />
+    <state width="1797" height="265" key="GridCell.Tab.0.bottom" timestamp="1589933771681">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="265" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589933771681" />
+    <state width="1797" height="265" key="GridCell.Tab.0.center" timestamp="1589933771681">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="265" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589933771681" />
+    <state width="1797" height="265" key="GridCell.Tab.0.left" timestamp="1589933771680">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="265" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589933771680" />
+    <state width="1797" height="265" key="GridCell.Tab.0.right" timestamp="1589933771681">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1797" height="265" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589933771681" />
+    <state x="573" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1589987413576">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="573" y="341" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589987413576" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1589931916520">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1589931916520" />
+  </component>
+</project>
